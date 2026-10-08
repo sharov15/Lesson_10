@@ -21,7 +21,7 @@ logging.basicConfig(
 # ============================================================
 # Configuration from Render Environment Variables
 # ============================================================
-OPENAI_API_KEY = (os.getenv("OPENAI_API_KEY") or "").strip()
+OPENAI_API_KEY = (os.getenv("OPENAI_API_KEY_1") or "").strip()
 GOOGLE_SERVICE_ACCOUNT_JSON = (os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON") or "").strip()
 GOOGLE_SHEET_ID = (os.getenv("GOOGLE_SHEET_ID_3") or "").strip()
 
